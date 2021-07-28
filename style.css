@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.main-menu::after{
+    clear: both;
+    display: block;
+    content: " ";
+}
+.main-menu{
+    background-color:  orange;
+   
+}
+.main-menu ul{
+    margin: 0;
+    list-style: none;
+}
+.main-menu ul li{
+    float: left;
+    padding: 20px
+}
+.main-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+.main-menu ul li:hover{
+    background-color: orangered;
+}
+
+.haf-width{
+    width: 40%;
+    float: left;
+    padding: 5%;
+    text-align: center;
+}
+
+.name-highlight{
+    color: orange;
+}
+.btn {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 40px;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #FFA500;
+    color: #fff;
+    border-radius: 15px;
+    border: 2px solid #000;
+}
+.haf-width h2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.haf-width p{
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+    
+    overflow: hidden;
+    
+}
+.top-section{
+  
+}
+.letest-work{
+    background-color: #f8f9fc;
+    padding-bottom: 150px;
+}
+
+.third-width{
+    width: 30%;
+   float: left;
+   box-shadow: 20px 20px 20px #000000;
+   padding: 20px;
+   margin-right: 10px;
+  
+}
+
+
+.third-width h2{
+    color: #363958;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.third-width p{
+    font-size: 20px;
+    color: #000;
+}
+.letest-work{
+    text-align: center;
+    margin: auto;
+}
+
+.last-text{
+    background-image: url(images/Group.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.last-section{
+    overflow: hidden;
+}
+.last-text h2{
+    font-size: 30px;
+    text-align: center;
+}
+.one{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.one h2{
+    text-align: center;
+}
+.last-text{
+    overflow: hidden;
+    margin: auto;
+    width: 50%;
+}
+
+.one h2{
+    color: #ffffff;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: roboto sans-serif;
+    font-weight: bold;
+}
+.one .btn {
+    background-color: #f4511e;
+ 
+    color: white;
+    padding: 10px 30px;
+    text-align: right;
+    font-size: 16px;
+    margin: 50px 0 0 200px;
+   
+}
+
+.footer{
+    text-align: center;
+}
+.footer img{
+    width: 100%;
+}
+
+.footer ul{
+    list-style: none;
+    text-align: center;
+}
+.footer ul li{
+    float: left;
+    padding: 20px;
+}
+.footer ul li a{
+    text-decoration: none;
+   font-size: 40px;
+    
+   
+
+}
+
+.footer .footer-menu{
+    text-align: center;
+}
